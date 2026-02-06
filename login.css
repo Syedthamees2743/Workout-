@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -20,10 +21,16 @@
 
 body {
   background-color: var(--bg-color);
+=======
+body {
+  font-family: sans-serif;
+  background-color: #f0f2f5;
+>>>>>>> 4c859cd729e93828ef612fa2f8c91bf680cafb0c
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+<<<<<<< HEAD
   padding: 20px;
 }
 
@@ -113,4 +120,90 @@ button[type="submit"]:hover {
   margin-top: 1.5rem;
   font-size: 0.875rem;
   color: var(--text-light);
+=======
+  margin: 0;
+}
+
+.login-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 396px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: #1877f2;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+}
+
+input {
+  width: 100%;
+  padding: 14px 16px;
+  margin: 6px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #1877f2;
+  outline: none;
+}
+
+.btn-login {
+  background-color: #1877f2;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background-color: #166fe5;
+}
+
+.forgot {
+  display: block;
+  margin-top: 15px;
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  border-bottom: 1px solid #dadde1;
+  margin: 25px 0;
+}
+
+.btn-new {
+  background-color: #42b72a;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-new:hover {
+  background-color: #36a420;
+>>>>>>> 4c859cd729e93828ef612fa2f8c91bf680cafb0c
 }
