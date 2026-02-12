@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamaha MT-15 V2 EMI Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Yamaha MT-15 V2 Standard</h1>
+            <p class="subtitle">2024 Model EMI Calculator</p>
+        </header>
+
+        <div class="calculator-wrapper">
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="loanAmount">Down Payment</label>
+                    <div class="input-with-symbol">
+                        <span class="currency-symbol">₹</span>
+                        <input type="number" id="loanAmount" placeholder="Enter amount">
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <div class="input-group">
+                        <label for="tenureValue">Tenure</label>
+                        <input type="number" id="tenureValue" placeholder="Months">
+                    </div>
+                    <div class="input-group">
+                        <label for="interestRate">Interest</label>
+                        <input type="number" id="interestRate" placeholder="%">
+                    </div>
+                </div>
+
+                <button class="calculate-btn" onclick="calculateEMI()">Check Emi</button>
+            </div>
+
+            <div class="result-section">
+                <div class="result-item main-result">
+                    <span class="result-label">EMI</span>
+                    <span class="result-value" id="emiResult">₹0</span>
+                </div>
+
+                <div class="result-item">
+                    <span class="result-label">Interest</span>
+                    <span class="result-value" id="interestResult">₹0</span>
+                </div>
+
+                <div class="result-item">
+                    <span class="result-label">Principal</span>
+                    <span class="result-value" id="principalResult">₹0</span>
+                </div>
+
+                <div class="result-item">
+                    <span class="result-label">Months</span>
+                    <span class="result-value" id="monthsResult">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
